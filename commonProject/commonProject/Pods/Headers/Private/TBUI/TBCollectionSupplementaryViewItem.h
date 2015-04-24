@@ -1,0 +1,1 @@
+../../../TBUI/TBUI/CollectionView/Model/Items/TBCollectionSupplementaryViewItem.h

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C81f" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Tao800CoreConfig" representedClassName="Tao800CoreConfig" syncable="YES">
+        <attribute name="configKey" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="configValue" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Tao800CoreDeal" representedClassName="Tao800CoreDeal" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealContent" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="dealId" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="dealUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Tao800CoreDealFavorite" representedClassName="Tao800CoreDealFavorite" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealFavoriteupdated" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="dealId" attributeType="String" syncable="YES"/>
+        <attribute name="userId" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="deal" optional="YES" transient="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" predicateString="self.dealId==$FETCH_SOURCE.dealId"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Tao800CoreDealHistory" representedClassName="Tao800CoreDealHistory" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealHistoryUpdated" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="dealId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <fetchedProperty name="deal" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Tao800CoreDealHistory" predicateString="self.dealId==$FETCH_SOURCE.dealId"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Tao800CoreShop" representedClassName="Tao800CoreShop" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopContent" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="shopId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Tao800CoreShopFavorite" representedClassName="Tao800CoreShopFavorite" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopFavoriteUpdated" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="shopId" attributeType="String" syncable="YES"/>
+        <attribute name="userId" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="shop" optional="YES" transient="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" predicateString="self.shopId==$FETCH_SOURCE.shopId"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Tao800CoreShopHistory" representedClassName="Tao800CoreShopHistory" syncable="YES">
+        <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopHistoryUpdated" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="shopId" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <fetchedProperty name="shop" optional="YES" transient="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" predicateString="self.shopId==$FETCH_SOURCE.shopId"/>
+        </fetchedProperty>
+    </entity>
+    <elements>
+        <element name="Tao800CoreConfig" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="Tao800CoreDeal" positionX="0" positionY="0" width="128" height="118"/>
+        <element name="Tao800CoreDealFavorite" positionX="0" positionY="0" width="128" height="146"/>
+        <element name="Tao800CoreDealHistory" positionX="0" positionY="0" width="128" height="131"/>
+        <element name="Tao800CoreShop" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="Tao800CoreShopFavorite" positionX="0" positionY="0" width="128" height="149"/>
+        <element name="Tao800CoreShopHistory" positionX="0" positionY="0" width="128" height="134"/>
+    </elements>
+</model>

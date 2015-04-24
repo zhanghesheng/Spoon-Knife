@@ -1,0 +1,39 @@
+PODS:
+  - Tao800Core (1.2.2):
+    - TBCore (~> 1.0.1)
+    - TBNetwork (~> 1.0.1)
+    - TBService (~> 1.0.1)
+    - TBSharekit (~> 1.0.0)
+    - TBUI (~> 1.0.1)
+  - TBCore (1.0.2)
+  - TBNetwork (1.0.1):
+    - TBCore (~> 1.0.1)
+  - TBService (1.0.2):
+    - TBCore (~> 1.0.1)
+    - TBNetwork (~> 1.0.1)
+    - TBUI (~> 1.0.1)
+  - TBSharekit (1.0.0):
+    - TBCore (~> 1.0.1)
+    - TBNetwork (~> 1.0.1)
+    - TBUI (~> 1.0.1)
+  - TBUI (1.0.1):
+    - TBCore (~> 1.0.1)
+    - TBNetwork (~> 1.0.1)
+
+DEPENDENCIES:
+  - Tao800Core (~> 1.2.2)
+  - TBCore (~> 1.0.1)
+  - TBNetwork (~> 1.0.1)
+  - TBService (~> 1.0.1)
+  - TBSharekit (~> 1.0.0)
+  - TBUI (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  Tao800Core: fee7be3f3593c9e6da026ce0fa514685be531c97
+  TBCore: 6361ed3b834069fdac79f05aafb0c50ca48ef851
+  TBNetwork: b56985ac3736c6002681936f98e9ea02762628bc
+  TBService: 5f743b418b30e3d70821b8d754ee5a995941dd86
+  TBSharekit: 8777012e19d5d3363e0ac7f497e9bef1d6d511a1
+  TBUI: b51c1a063292f29a1350bb351e7c0b7056106aa4
+
+COCOAPODS: 0.36.3

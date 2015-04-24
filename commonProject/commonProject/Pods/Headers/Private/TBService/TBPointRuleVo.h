@@ -1,0 +1,1 @@
+../../../TBService/TBService/Service/WirelessPlatform/Vo/TBPointRuleVo.h

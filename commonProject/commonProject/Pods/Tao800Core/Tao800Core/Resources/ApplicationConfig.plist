@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>platform</key>
+	<string>iphone</string>
+	<key>product</key>
+	<string>tao800</string>
+	<key>partner</key>
+	<string>b2e1cc</string>
+	<key>weixinAppID</key>
+	<string>wx1f95ed8882ca2418</string>
+	<key>displayAsGrid</key>
+	<true/>
+</dict>
+</plist>

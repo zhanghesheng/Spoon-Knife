@@ -1,0 +1,7 @@
+#include "Pods-TBSharekit.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TBSharekit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TBCore" "${PODS_ROOT}/Headers/Public/TBNetwork" "${PODS_ROOT}/Headers/Public/TBService" "${PODS_ROOT}/Headers/Public/TBSharekit" "${PODS_ROOT}/Headers/Public/TBUI" "${PODS_ROOT}/Headers/Public/Tao800Core" ${PODS_TBSHAREKIT_HEADER_SEARCH_PATHS}
+LIBRARY_SEARCH_PATHS = ${PODS_TBSHAREKIT_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = ${PODS_TBSHAREKIT_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -1,0 +1,2 @@
+PODS_TBSERVICE_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+PODS_TBSERVICE_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"

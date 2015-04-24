@@ -1,0 +1,3 @@
+PODS_TBUI_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/TBUI/Frameworks"
+PODS_TBUI_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+PODS_TBUI_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "Foundation" -framework "UIKit" -framework "WebP"

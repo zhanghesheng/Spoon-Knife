@@ -1,0 +1,2 @@
+PODS_TBCORE_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+PODS_TBCORE_OTHER_LDFLAGS = -l"sqlite3" -l"xml2" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"

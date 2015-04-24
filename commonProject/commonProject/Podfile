@@ -1,0 +1,9 @@
+source 'git@tuan800:mobile_iphone/cocoapods.git'
+
+platform :ios, '6.0'
+pod 'TBCore', '~> 1.0.1'
+pod 'TBNetwork', '~> 1.0.1'
+pod 'TBUI', '~> 1.0.1'
+pod 'TBService', '~> 1.0.1'
+pod 'TBSharekit', '~> 1.0.0'
+pod 'Tao800Core', '~> 1.2.2'

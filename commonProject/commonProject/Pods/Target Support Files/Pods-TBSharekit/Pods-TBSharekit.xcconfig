@@ -1,0 +1,3 @@
+PODS_TBSHAREKIT_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+PODS_TBSHAREKIT_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/TBSharekit/Libs"
+PODS_TBSHAREKIT_OTHER_LDFLAGS = -l"WeChatSDK" -framework "CoreGraphics" -framework "Foundation" -framework "UIKit"

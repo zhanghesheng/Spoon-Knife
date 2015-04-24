@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C78c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="xFa-KS-EoA">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Tao800 Start BannerVCL-->
+        <scene sceneID="1aB-QR-ltT">
+            <objects>
+                <viewController storyboardIdentifier="Tao800StartBannerVCL" id="xFa-KS-EoA" customClass="Tao800StartBannerVCL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JVj-nm-zEF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="bWq-4f-Gqg" customClass="Tao800StartNewsView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="Szs-17-dOg" userLabel="shadowView">
+                                        <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1V3-K6-OBO">
+                                        <rect key="frame" x="42" y="490" width="100" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.73019617160000005" blue="0.53249848280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="查看详情">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handlerDetailAction:" destination="xFa-KS-EoA" eventType="touchUpInside" id="ypn-ec-XOa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zvu-WQ-h85">
+                                        <rect key="frame" x="178" y="490" width="100" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.73019617160000005" blue="0.53249848280000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="跳过">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handlerSkipAction:" destination="xFa-KS-EoA" eventType="touchUpInside" id="ham-VZ-WVl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="detailButton" destination="1V3-K6-OBO" id="xNg-82-hXX"/>
+                                    <outlet property="shadowView" destination="Szs-17-dOg" id="BJP-e9-udo"/>
+                                    <outlet property="skipOverButton" destination="zvu-WQ-h85" id="KAq-uK-JWU"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="startNewsView" destination="bWq-4f-Gqg" id="Qnx-9K-TW3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="peU-oK-9Zl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304" y="438"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

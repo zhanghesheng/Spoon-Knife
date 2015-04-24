@@ -1,0 +1,1 @@
+../../../Tao800Core/Tao800Core/Common/Components/Upgrade/Tao800UpgradeManage.h

@@ -1,0 +1,12 @@
+;(function ResizeImages() {
+    var myimg,oldwidth;
+    for(i=0;i <document.images.length;i++){
+        myimg = document.images[i];
+        if(myimg.width > 0){
+            oldwidth = myimg.width;
+            oldHeight = myimg.height;
+            myimg.width = window.innerWidth; //"100%";
+            myimg.height = oldHeight*(myimg.width/oldwidth);
+        }
+    }
+})();

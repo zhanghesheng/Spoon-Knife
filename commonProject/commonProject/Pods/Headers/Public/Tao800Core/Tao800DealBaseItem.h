@@ -1,0 +1,1 @@
+../../../Tao800Core/Tao800Core/Deal/List/Model/Items/Tao800DealBaseItem.h

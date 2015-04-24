@@ -1,0 +1,4 @@
+PODS_TAO___CORE_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/Tao800Core/Frameworks" "$(PODS_ROOT)/Tao800Core/Frameworks"
+PODS_TAO___CORE_HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+PODS_TAO___CORE_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Tao800Core/Libs"
+PODS_TAO___CORE_OTHER_LDFLAGS = -l"UPPayPlugin" -l"stdc++" -l"z" -framework "AlipaySDK" -framework "CoreData" -framework "CoreGraphics" -framework "Foundation" -framework "KSCrash" -framework "UIKit"

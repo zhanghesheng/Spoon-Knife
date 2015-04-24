@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/TBUI/Frameworks" "$(PODS_ROOT)/Tao800Core/Frameworks" "$(PODS_ROOT)/Tao800Core/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/TBCore" "${PODS_ROOT}/Headers/Public/TBNetwork" "${PODS_ROOT}/Headers/Public/TBService" "${PODS_ROOT}/Headers/Public/TBSharekit" "${PODS_ROOT}/Headers/Public/TBUI" "${PODS_ROOT}/Headers/Public/Tao800Core" $(SDKROOT)/usr/include/libxml2
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/TBSharekit/Libs" "$(PODS_ROOT)/Tao800Core/Libs"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/TBCore" -isystem "${PODS_ROOT}/Headers/Public/TBNetwork" -isystem "${PODS_ROOT}/Headers/Public/TBService" -isystem "${PODS_ROOT}/Headers/Public/TBSharekit" -isystem "${PODS_ROOT}/Headers/Public/TBUI" -isystem "${PODS_ROOT}/Headers/Public/Tao800Core"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-TBCore" -l"Pods-TBNetwork" -l"Pods-TBService" -l"Pods-TBSharekit" -l"Pods-TBUI" -l"Pods-Tao800Core" -l"UPPayPlugin" -l"WeChatSDK" -l"sqlite3" -l"stdc++" -l"xml2" -l"z" -framework "AlipaySDK" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "Foundation" -framework "KSCrash" -framework "SystemConfiguration" -framework "UIKit" -framework "WebP"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
